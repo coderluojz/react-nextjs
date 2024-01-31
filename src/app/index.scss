@@ -62,7 +62,7 @@
       .item1,.item2,.item3,.item4{
         .source-item{
           position: relative;
-          transition: all .3s;
+          transition: transform .3s;
         }
         .hover-item{
           position: absolute;
@@ -81,8 +81,7 @@
         }
         &:hover{
           .source-item{
-            bottom: 4px;
-            left: 4px;
+            transform: translate(4px,-4px);
           }
         }
       }
@@ -94,8 +93,7 @@
         }
         &:hover{
           .source-item{
-            bottom: 4px;
-            left: 6px;
+            transform: translate(5px,-4px);
           }
         }
       }
@@ -106,8 +104,7 @@
         }
         &:hover{
           .source-item{
-            bottom: 4px;
-            left: 4px;
+            transform: translate(4px,-4px);
           }
         }
       }
@@ -118,8 +115,7 @@
         }
         &:hover{
           .source-item{
-            bottom: 4px;
-            left: 4px;
+            transform: translate(4px,-4px);
           }
         }
       }
